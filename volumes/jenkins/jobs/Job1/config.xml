@@ -13,8 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo hello world
-return 1</command>
+      <command>echo hello world</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

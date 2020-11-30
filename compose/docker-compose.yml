@@ -7,7 +7,7 @@ services:
             - "8880:8080"
             - "50000:50000"
         volumes: 
-            - /home/panda/jenkins:/var/jenkins_home
+            - ../volumes/jenkins:/var/jenkins_home
         networks: 
             - docker_network
     ubuntu:
